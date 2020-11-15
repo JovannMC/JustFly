@@ -1,5 +1,5 @@
 name: JustFly
-version: 1.3.0
+version: 1.3.1
 description: This is a plugin so you can just fly!
 author: JovannMC
 main: me.JovannMC.JustFly.JustFly
@@ -7,8 +7,10 @@ main: me.JovannMC.JustFly.JustFly
 commands:
   fly:
     description: Just fly!
+    permission: JustFly.fly
   justfly:
     description: Manage the JustFly plugin!
+    permission: JustFly.use
 permissions:
   JustFly.*:
     description: Grants full access to everything in this plugin.
@@ -17,6 +19,7 @@ permissions:
       JustFly.fly.check: true
       JustFly.fly.others.enableFly: true
       JustFly.fly.others.disableFly: true
+      JustFly.use: true
       JustFly.use.check: true
       JustFly.use.reload: true
   JustFly.fly:
