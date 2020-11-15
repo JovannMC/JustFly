@@ -42,7 +42,7 @@ public class JustFly extends JavaPlugin implements Listener {
         		config.delete();
         		saveDefaultConfig();
     		} else {
-    			
+    			utils.error(getConfig().getString("Prefix") + " CONFIG VERSION IN CONFIG IS INVALID, PLEASE BACKUP YOUR CONFIG AND REGENERATE THE CONFIG AS SET BY THE ConfigVersionAction.");
     		}
     		
     	}
