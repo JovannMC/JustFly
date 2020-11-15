@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<project name="JustFly" default="Build">
+
+    <condition property="server" value="C:\Users\jovan\Desktop\Minecraft Servers\1.8.8 Paper\">
+        <os family="windows"/>
+    </condition>
+
+    <target name="Build">
+        <jar jarfile="${server}/plugins/${ant.project.name}.jar" basedir="./target/classes/" includes="**/*">
+            <zipgroupfileset dir="${user.home}/eclipse-workspace/JustFly/bin/me/JovannMC/JustFly"
+                             includes="JustFly.jar"/>
+        </jar>
+    </target>
+
+</project>

@@ -1,0 +1,33 @@
+name: JustFly
+version: 1.3.0
+description: This is a plugin so you can just fly!
+author: JovannMC
+main: me.JovannMC.JustFly.JustFly
+
+commands:
+  fly:
+    description: Just fly!
+  justfly:
+    description: Manage the JustFly plugin!
+permissions:
+  JustFly.*:
+    description: Grants full access to everything in this plugin.
+    children:
+      JustFly.fly: true
+      JustFly.fly.check: true
+      JustFly.fly.others.enableFly: true
+      JustFly.fly.others.disableFly: true
+      JustFly.use.check: true
+      JustFly.use.reload: true
+  JustFly.fly:
+    description: Allows you to do /fly for yourself.
+  JustFly.fly.check:
+    description: Allows you to check if a player is flying with /fly [player] [c/check]
+  JustFly.fly.others.enableFly:
+    description: Allows you to enable another person's flight with /fly [player]
+  JustFly.fly.others.disableFly:
+    description: Allows you to disable another person's flight with /fly [player]
+  JustFly.use.check:
+    description: Allows you to check for updates manually with /justfly check (Not to be confused with JustFly.fly.check)
+  JustFly.use.reload:
+    description: Allows you to reload the config with /justfly reload

@@ -1,0 +1,58 @@
+# Thanks for downloading my plugin.
+# You can use color codes for any of the messages.
+
+# DO NOT CHANGE
+ConfigVersion: 1
+
+# If the config version is invalid, should the plugin automatically regenerate the config without warning or should the plugin warn the console and not do anything?
+# Valid options are: DELETE, MESSAGE
+# If this option is invalid, it will choose the MESSAGE action.
+ConfigVersionAction: MESSAGE
+
+# Do you want to check for updates when the server starts?
+# Disabling this will not disable /justfly check, which is a way to check for updates manually.
+UpdateChecker: true
+
+# What text will be said before the plugin message.
+# (Prefix) (message)
+Prefix: "&b[JustFly]"
+    
+# There are plans to move this section to its own file in the future, for now it will stay here.
+Messages:
+  
+  # What message should the player see when they enable their flight?
+  FlightEnabledMessage: "&6Your flight has been &eenabled"
+
+  # What message should the player see when they disable their flight?
+  FlightDisabledMessage: "&6Your flight has been &edisabled"
+
+  # What message should the player see when they enable somebody else's flight?
+  SetOtherFlightOnMessage: "&e%player%'s &6flight has been &eenabled"
+
+  # What message should the player see when they disable somebody else's flight?
+  SetOtherFlightOffMessage: "&e%player%'s &6flight has been &edisabled"
+
+  # What message should the target see when an admin enables their flight?
+  FlightOnByAdminMessage: "&6Your flight has been &eenabled &6by an &eadmin"
+
+  # What message should the target see when an admin disables their flight?
+  FlightOffByAdminMessage: "&6Your flight has been &edisabled &6by an &eadmin"
+  
+  # What message should the player see when they check somebody else's flight and it returns true (can fly)?
+  FlightCheckCanFlyMessage: "&e%player% &6currently &ecan fly"
+  
+  # What message should the player see when they check somebody else's flight and it returns false (can not fly)?
+  FlightCheckCanNotFlyMessage: "&e%player% &6currently &ecan not fly"
+
+  # What message should the player see when their specified player is not online or doesn't exist?
+  PlayerNotValidMessage: "&4That player is not online or doesn't exist"
+
+  # What message should the player see when they don't have permission to do the commands in this plugin?
+  NoPermissionMessage: "&4No permission"
+
+  # What message should the player see when they use a command wrong? 
+  InvalidUsageMessage: "&4Invalid Usage! %usage%"
+
+  # What should the person see when they try to use a command that isn't supposed to be used on the console or a command block?
+  CommandInConsoleMessage: "&4You can not use this command via console or a command block"
+  
