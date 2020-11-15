@@ -16,6 +16,6 @@ This plugin has translatable messages, a short config, developer api, and more.
 ### Permissions
 - justfly.fly - Allows you to do /fly for yourself
 - justfly.fly.others.enable - Allows you to enable another person's flight with /fly [player]
-- justfly.fly.others.disable - Allows you to enable another person's flight with /fly [player]
+- justfly.fly.others.disable - Allows you to disable another person's flight with /fly [player]
 - justfly.use.check - Allows you to check for updates manually with /justfl check
 - justfly.use.reload - Allows you to reload the config file with /justfly reload
